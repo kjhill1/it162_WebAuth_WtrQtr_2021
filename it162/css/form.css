@@ -2,6 +2,10 @@ form>div {
   margin:1em;
 }
 
+#font {
+
+  font: 14px "Fieldwork Geo", Acute, Helvetica;
+}
 /* writes to small text above reCAPTCHA upon failure */
 
 .dateFeedback{

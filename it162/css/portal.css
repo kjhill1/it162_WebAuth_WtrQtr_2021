@@ -1,32 +1,82 @@
 /* My WEB120 Portal Website Styles */
 
-html {
-    background-color:rgb#f1e5e9;
-}
+/* My WEB120 Portal Website Styles */
 
-main.wrapper {
-    background-color: rbg (5d5d61);
+html {
+    background-color: #463f3a;
     overflow: auto;
 }
 
-h1>a {
+div.wrapper {
+    background-color: #f4f3ee;
+    overflow: auto;
+}
+/*deleted h1.a*/
+#h1font {
     text-decoration: none;
-    font: 9pt Aldhabi, AAcuta Bold, Arial;
-    color: rgb(red, green, blue) b1a296;
+	font: 26px "Fieldwork Hum Bold", Acute, Helvetica;
+    color: #3e375f;
 }
 
-ul.topnav {
-    color: rbg 557a95;
-    font: 6pt Abadi, Fieldwork Geo DemiBold, Tahoma;
+h2 {
+    font: 24px "Fieldwork Geo", Acute, Helvetica;
+    text-align: justify;
+    padding: 10px 0px 10px 0px;
+    margin-right: auto;
+    float: right;
+    width: 100%;
 }
 
-.logo {
-    Color: rgb (557A95);
-    margin-left:1%;
-    text-shadow:1px 1px #ccc;
-    font-size:1.25em;
+
+p {
+    font: 14px "Fieldwork Geo", Acute, Helvetica;
+    text-align: justify;
 }
 
+.hometext p  {
+    text-align: justify;
+    width: auto;
+    font: 14px "Fieldwork Geo", Acute, Helvetica;
+    /* text-align: justify; */
+}
+
+footer p     {
+    float: none;
+    width: 100%;
+}
+
+/* nav {
+    font: 16px "Fieldwork Geo", Acute, Helvetica;
+
+} */
+
+
+
+/* .section {
+   text-align: left;
+   float: left;
+   padding: 0px 0px 0px 10px; 
+}
+   /* margin-right: 20px; */
+
+div.homepic    {
+    float: right;
+    width: 25%;
+    padding: 1px 0px 0px 15px;
+
+}
+
+div.desktop {
+        float: right;
+        width: 25%;
+        padding: 10px;
+} 
+#logopad {
+    color: #3e375f;
+    text-shadow:1px 1px #817b9e;
+    font-size: 1em;
+    padding: 0px 10px 0px 10px;
+}
 /* Embed Responsively Rules! */
 div.embed-container {
     position: relative;
@@ -35,7 +85,7 @@ div.embed-container {
     overflow: hidden;
     margin: auto;
     max-width: 98%;
-} 
+}
 
 div.embed-container iframe {
     position: absolute;
@@ -46,90 +96,86 @@ div.embed-container iframe {
 }
 
 footer {
-	clear:both;
+    clear:both;
+    text-align: center;
+    padding: 0px 0px 0px 10px;
+    margin-right: 20px;
 }
 
 /* START RESPONSIVE STYLES */
 
 /* DESKTOP */
 @media all and (min-width:1400px) {
-	
-   main.wrapper {
-		width:80%;
+
+   div.wrapper {
+		width: 100%;
 		margin:auto;
 	}
-
-    section {
-		width:65%;
-		float:left;
-	}
-	
-     aside {	
-		width:34%;
-		float:right;
-	}
-			
-    img.desktop {
-      		float:left;
-       		width:50%;
-            display:inline-block;
-    }
     
+    img.desktop {
+       		width: 90%;
+            display: inline-block;
+    }
+
     img.tablet, img.phone {
        	display:none;
-    	}  
-    
-    /* Change background color of navigation on selected page */
+    	}
 
+    /* Change background color of navigation on selected page */
     ul.topnav li a.selected {
-        		background-color: #ccc;
-        		color:#000;
+        		background-color: #4e4575;
+                color:  #bebad1;
+                font: 20px "Fieldwork Geo Bold", Acute, Helvetica;
    	 }
 }
 
 
 /* TABLET */
 @media all and (min-width:737px) and (max-width:1399px) {
-	
-	section {
-		width:60%;
-		float:left;
+
+	.section {
+        margin: 0 10px 10px 10px;
+		width: 95%;
 	}
-	
-	aside {	
-		width:39%;
-		float:right;
-	}
-	
+
     img.tablet {
        		width:100%;
             display:inline-block;
     }
-    
+
     img.desktop, img.phone {
-       	display:none;
-    	}  
-    
-    
+           display:none;
+           width: 25%;
+    	}
+
+
     /* Change background color of navigation on selected page */
     ul.topnav li a.selected {
-        background-color: #ccc;
-        color:#000;
-    }
-}
+        background-color: #4e4575;
+        color:  #bebad1
+        }
+    }   
 
 /* PHONE */
-@media all and (max-width:736px) {
-    
+@media all and (max-width:736px) 
+{
+    .homepic, .hometext {
+        float: none!important;
+        width: 100%!important;
+    }
+
+    .hometext p, footer p     {
+        float: none;
+        width: 100%;
+    }
+
     img.phone {
        		width:100%;
             display:inline-block;
+            padding-right: 10px;
     }
-    
+
     img.tablet, img.desktop {
        	display:none;
-    	}  
-
-}
-
-
+    	}
+    }
