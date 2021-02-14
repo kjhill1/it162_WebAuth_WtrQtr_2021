@@ -1,5 +1,3 @@
-<?php include 'portal-config.php'?>
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -9,9 +7,7 @@
 <meta charset="utf-8">
 <!-- my fontawesom code- included going forward -->
 <script src="https://use.fontawesome.com/e70c6170ae.js"></script>
-
-
-<link rel="stylesheet" href="css/fa/css/all.min.css" />
+<link rel="stylesheet" href="css/flowchart.css" />
 <link rel="stylesheet" href="css/nav.css" />
 <link rel="stylesheet" href="css/portal.css" />
 <link rel="stylesheet" href="css/form.css" />
@@ -19,18 +15,19 @@
 </head>
 
 <body>
+<!-- <i class="fas fa-compass"></i> -->
+
 <!-- START WRAPPER -->
 <div class="wrapper">
 <header>
   <h1>
-    <a href="index.php" id="h1font"><i id="logopad" class="logo fas <?=$logo?>"<?=$logo_color?>></i>Web Design Portal for Kelly Hill it162</a></h1> 
+    <a href="index.php" id="h1font"><i id="logopad" class="fas<?=$logo?>"<?=$logo_color?>></i>Web Design Portal for Kelly Hill it162</a></h1> 
     
-
   <nav>
     <ul class="topnav" id="myTopnav">
-    <?=makeLink($nav)?>
-    <!--
-      <li><a href="index.php" class="selected">Welcome</a></li>
+    <?=makeLinks($nav)?>
+    
+      <!-- <li><a href="index.php" class="selected">Welcome</a></li>
       <li><a href="./big/index.php">Big</a></li>
       <li><a href="aia.php">AIA</a></li>
       <li><a href="flowchart.php">Flowchart/Layout</a></li>

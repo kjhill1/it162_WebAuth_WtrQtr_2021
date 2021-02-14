@@ -1,5 +1,5 @@
-<?php include "includes/header.php"?>
-<?php include "includes/portal-config.php"?>
+<?php include 'includes/portal-config.php'?>
+<?php include 'includes/header.php'?>
         <!-- Heaader Cut here!!!! saved in php file -->
 <!-- START LEFT COL -->
 <div class="section">
