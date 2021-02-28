@@ -1,0 +1,17 @@
+html {
+    background-color: #443a46;
+    overflow: auto;
+}
+
+div.wrapper {
+    background-color: #fdfdfa;
+    overflow: auto;
+}h1 {
+    font: 24px "Fieldwork Geo", Acute, Helvetica;
+    text-align: justify;
+    padding: 10px 0px 10px 0px;
+    margin-right: auto;
+    float: right;
+    width: 100%;
+}
+

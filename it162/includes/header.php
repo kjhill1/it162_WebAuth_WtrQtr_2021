@@ -1,3 +1,4 @@
+<?php include 'includes/portal-config.php'?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -5,13 +6,12 @@
 <meta name="viewport" content="width=device-width" />
 <meta name="robots" content="noindex,nofollow" />
 <meta charset="utf-8">
-<!-- my fontawesom code- included going forward -->
-<script src="https://use.fontawesome.com/e70c6170ae.js"></script>
-<link rel="stylesheet" href="css/flowchart.css" />
+<script src="https://use.fontawesome.com/6300c9ab27.js"></script>
 <link rel="stylesheet" href="css/nav.css" />
-<link rel="stylesheet" href="css/portal.css" />
 <link rel="stylesheet" href="css/form.css" />
-
+<link rel="stylesheet" href="css/big.css" />
+<link rel="stylesheet" href="css/portal.css" />
+<link rel="stylesheet" href="css/flowchart.css">
 </head>
 
 <body>
@@ -21,11 +21,12 @@
 <div class="wrapper">
 <header>
   <h1>
-    <a href="index.php" id="h1font"><i id="logopad" class="fas<?=$logo?>"<?=$logo_color?>></i>Web Design Portal for Kelly Hill it162</a></h1> 
+ 
+    <a href="index.php" id="h1font"><i id="logopad" class="logo <?=$logo?>"></i>Web Design Portal for Kelly Hill it162</a></h1> 
     
   <nav>
     <ul class="topnav" id="myTopnav">
-    <?=makeLinks($nav)?>
+    <?=makeLinks($nav1)?>
     
       <!-- <li><a href="index.php" class="selected">Welcome</a></li>
       <li><a href="./big/index.php">Big</a></li>

@@ -333,7 +333,6 @@ class MyAutoLoader
     }#end NamespaceLoader()
 
 }#end 
-php?>
 
 
 

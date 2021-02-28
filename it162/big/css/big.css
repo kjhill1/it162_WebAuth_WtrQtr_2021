@@ -11,13 +11,13 @@ div.wrapper {
     background-color: #fdfdfa;
     overflow: auto;
 }
-
+/*deleted h1.a*/
 h1 {
     text-decoration: none;
 	font: 26px "Fieldwork Hum Bold", Acute, Helvetica;
     color: #3e375f;
+    padding: 0px 10px;
 }
-
 #logopad {
     color: #3e375f;
     padding: 0px 10px;
@@ -130,9 +130,9 @@ footer {
     ul.topnav li a.selected {
         		background-color: #4e4575;
                 color:  #bebad1;
-                /* font: 20px "Fieldwork Geo Bold", Acute, Helvetica;
+                font: 20px "Fieldwork Geo Bold", Acute, Helvetica;
                 padding: 20px;
-   	 } */
+   	 }
 }
 
 

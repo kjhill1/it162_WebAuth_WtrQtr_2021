@@ -8,20 +8,21 @@ ul.topnav {
     margin: 5px ;
     padding: 5px;
     overflow: hidden;
-    font: 18px, "Fieldwork Geo Bold", Acute, Helvetica;
-    background-color: #463f3a;
+    /* font: 18px, "Fieldwork Geo Bold", Acute, Helvetica;
+    background-color: #ece9f1; */
 }
 
 /* Float the list items side by side */
 ul.topnav li {
-  
-    float: left;
+      float: left;
+      padding: 20px;
+      font: 18px, "Fieldwork Geo Bold", Acute, Helvetica;
+      background-color: #ece9f1;
 }
 
 /* Style the links inside the list items */
 ul.topnav li a.selected {
     display: inline-block;
-    color:  #bebad1;
     text-align: center;
     padding: 14px 16px;
     transition: 0.3s;
@@ -30,7 +31,7 @@ ul.topnav li a.selected {
 }
 
 /* Change background color of links on hover */
-ul.topnav li a:hover {background-color: rgb(182, 175, 214)}
+ul.topnav li a:hover {background-color: #e8e5f1}
 
 /* Hide the list item that contains the link that should open and close the topnav on small screens */
 ul.topnav li.icon {display: none;}
@@ -39,7 +40,7 @@ ul.topnav li.icon {display: none;}
 @media screen and (max-width:680px) {
   ul.topnav li:not(:first-child) {display: none;}
   ul.topnav li.icon {
-    float: right;
+    /* float: right; */
     display: inline-block;
    }
 }

@@ -1,4 +1,3 @@
-<?php include 'includes/portal-config.php'?>
 <?php include 'includes/header.php'?>
         <!-- Heaader Cut here!!!! saved in php file -->
 <!-- START LEFT COL -->
@@ -20,11 +19,7 @@
    </main>
 <!-- END LEFT COL -->
 
-
 </div>
 
-
-
- 
 <!-- CUT FOOTER HERE START Footer -->
 <?php include 'includes/footer.php'?>
