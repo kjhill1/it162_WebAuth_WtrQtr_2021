@@ -1,7 +1,5 @@
 /* My WEB120 Portal Website Styles */
 
-/* My WEB120 Portal Website Styles */
-
 html {
     background-color: #443a46;
     overflow: auto;
@@ -10,87 +8,94 @@ html {
 div.wrapper {
     background-color: #fdfdfa;
     overflow: auto;
+    display: grid; 
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    grid-gap: 20px;
+
 }
-/*deleted h1.a*/
+header {
+    display: grid;
+    grid-column: 1 / 4;
+    grid-row: 1/2
+}
+
 h1 {
     text-decoration: none;
 	font: 26px "Fieldwork Hum Bold", Acute, Helvetica;
     color: #3e375f;
     padding: 0px 10px;
 }
+
 #logopad {
     color: #3e375f;
     padding: 0px 10px;
 }
 
-h2 {
+section {
+    display: grid;
+    grid-column: 1 / 3;
+    grid-row: 2 / 3;
+    padding-left: 10px;
+}
+
+h2 h3 {
     font: 24px "Fieldwork Geo", Acute, Helvetica;
     text-align: justify;
     padding: 10px 0px 10px 0px;
     margin-right: auto;
-    float: right;
+    /* float: right; */
     width: 100%;
 }
 
+aside  {
+    display: grid;
+    grid-row: 2 / 3;
+    grid-column: 3 / 4;
+}
+#address    {
+    display: flex;
+    align-items: center;
+    float: none;
+    text-justify: center;
+}
 
 p {
     font: 14px "Fieldwork Geo", Acute, Helvetica;
     text-align: justify;
 }
 
-.hometext p  {
-    text-align: justify;
-    width: auto;
-    font: 14px "Fieldwork Geo", Acute, Helvetica;
-    /* text-align: justify; */
-}
-
-footer p     {
+main {
     float: none;
-    width: 100%;
+    display: grid;
+    grid-column: 1 / 3;
+    grid-row: 2 / 3;
+    padding-left: 10px;
 }
 
-/* nav {
-    font: 16px "Fieldwork Geo", Acute, Helvetica;
-
-} */
-
-
-
-/* .section {
-   text-align: left;
-   float: left;
-   padding: 0px 0px 0px 10px; 
-}
-   /* margin-right: 20px; */
-
-div.homepic    {
-    float: right;
-    width: 25%;
-    padding: 1px 0px 0px 15px;
-
-}
-
-div.desktop {
+ div.desktop {
         float: right;
         width: 25%;
         padding: 10px;
-} 
+}
+
 .logopad {
     color: #3e375f;
     text-shadow:1px 1px #817b9e;
     font-size: 1em;
     padding: 0px 10px;
 }
-/* Embed Responsively Rules! */
+
+/* Embed Responsively Rules! used for webcam */
 div.embed-container {
     position: relative;
     padding-bottom: 56.25%;
     height: 0;
     overflow: hidden;
-    margin: auto;
     max-width: 98%;
 }
+
+/* iframe is child of div.embed-container above */
 
 div.embed-container iframe {
     position: absolute;
@@ -101,30 +106,39 @@ div.embed-container iframe {
 }
 
 footer {
-    clear:both;
-    text-align: center;
-    padding: 0px 0px 0px 10px;
-    margin-right: 20px;
+    /* float: none; */
+    display: grid;
+    justify-content: center;
+    grid-row: 5 / 6;
+    grid-column: 1 / 4;
+    width: 100%;
 }
 
-/* START RESPONSIVE STYLES */
+/* Embed Responsively Rules! */
+div.embed-container-month {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    /* margin: auto; */
+    max-width: 98%;
+}
 
+div.embed-container .month iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
 /* DESKTOP */
-@media all and (min-width:900px) {
+@media all and (min-width:970px) {
 
    div.wrapper {
 		width: 100%;
-		margin:auto;
+		margin: auto;
 	}
-    
-    img.desktop {
-       		width: 90%;
-            display: inline-block;
     }
-
-    img.tablet, img.phone {
-       	display:none;
-    	}
 
     /* Change background color of navigation on selected page */
     ul.topnav li a.selected {
@@ -133,27 +147,15 @@ footer {
                 font: 20px "Fieldwork Geo Bold", Acute, Helvetica;
                 padding: 20px;
    	 }
-}
 
 
 /* TABLET */
-@media all and (min-width:737px) and (max-width:1399px) {
+@media all and (min-width:639px) and (max-width: 960px) {
 
-	.section {
+	.wrapper {
         margin: 0 10px 10px 10px;
 		width: 95%;
 	}
-
-    img.tablet {
-       		width:100%;
-            display:inline-block;
-    }
-
-    img.desktop, img.phone {
-           display:none;
-           width: 25%;
-    	}
-
 
     /* Change background color of navigation on selected page */
     ul.topnav li a.selected {
@@ -163,25 +165,23 @@ footer {
     }   
 
 /* PHONE */
-@media all and (max-width:736px) 
+@media all and (max-width: 640px) 
 {
-    .homepic, .hometext {
-        float: none!important;
-        width: 100%!important;
+    div.wrapper {
+        width: auto;
+
     }
 
-    .hometext p, footer p     {
-        float: none;
+    /* HIDE MONTH VIEW ON PHONE FOR CALENDER ifram taken out*/
+    .embed-container .agenda {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    footer   {
         width: 100%;
     }
 
-    img.phone {
-       		width:100%;
-            display:inline-block;
-            padding-right: 10px;
-    }
-
-    img.tablet, img.desktop {
-       	display:none;
-    	}
-    }
+}

@@ -1,15 +1,17 @@
 <?php include 'includes/portal-config.php'?>
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 <title><?=$title?></title>
 <meta name="viewport" content="width=device-width" />
 <meta name="robots" content="noindex,nofollow" />
-<meta charset="utf-8">
+<meta charset="utf-8"/>
+
 <script src="https://use.fontawesome.com/6300c9ab27.js"></script>
 <link rel="stylesheet" href="css/nav.css" />
 <link rel="stylesheet" href="css/form.css" />
-<link rel="stylesheet" href="css/big.css" />
+<link rel="stylesheet" href="css/aia.css" />
 <link rel="stylesheet" href="css/portal.css" />
 <link rel="stylesheet" href="css/flowchart.css">
 </head>

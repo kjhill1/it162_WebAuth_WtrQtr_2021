@@ -1,0 +1,65 @@
+css for aia
+/* html {
+    background-color: rgb(219, 228, 236);
+} */
+html {
+    background-color: rgb(141, 164, 184);
+}
+
+nav {
+    align-items: center;
+
+}
+/* body  {
+  background-color: rgb(217, 224, 230);
+  color: rgb(46, 69, 92);
+}
+
+/* header {
+  text-align: center;
+}
+
+/* h2 {
+    text-decoration: none;
+	font: 26px "Fieldwork Hum Bold", Acute, Helvetica;
+    color: #3e375f;
+} */
+
+table   {
+    width: 100%;
+    border-spacing: 0px;
+    font: 18px "Fieldwork Hum Bold", Acute, Helvetica;
+    color: #3e375f;
+}
+
+.rowwidth {
+    width: 75%;
+}
+.aiaheader {
+    text-decoration: none;
+	font: 26px "Fieldwork Hum Bold", Acute, Helvetica;
+    color: #3e375f;
+    text-align: center;
+}
+
+th  {
+       width:100px; 
+       text-align: center;
+       border:4px solid rgb(45, 53, 95);
+       }
+
+ td {
+   border:5px solid rgb(94, 102, 143);
+   padding: 10px;
+   color: rgb(46, 69, 92);
+   width: 25%;
+  }
+
+  p   {
+    padding: 0px 5px;
+}
+
+  /* tr  {
+    padding: 5px;
+  } */
+

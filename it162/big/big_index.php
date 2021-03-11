@@ -1,33 +1,45 @@
 <?php include 'includes/big_header.php'?>
-        <!-- Heaader Cut here!!!! saved in php file -->
-<!-- START LEFT COL -->
+
+<!-- START LEFT COLUMN -->
 <div class="section">
-    <h2 class="<?=$PageID?>">Welcome, Willkommen, ようこそ, Ceud mìle fàilte, Yin Dee Dtôn Ráp, Bienvenidos, Aloha, Benvenute, Wemukelekile, أهلاً و سهلاً</h2>
+<main> 
+    <h2 class="pageID">Client Questionnaire</h2>
 
-<!-- MAKE SURE YOU GET YOUR (3) IMAGES SAVED INTO YOUR IMAGES FOLDER -->
-<div class="homepic">
-  <img src="images/boating.jpg" class="desktop" alt="Boating" />
-  <img src="images/sunset.jpg" class="tablet" alt="Sunset" />
-  <img src="images/shadow_me.jpg" class="phone" alt="Shadow" />
+    <p> Hi there!</p>
+
+      <p>Below are are few basic questions to get us rolling on your new website. You will want to provdie the infomation as you will want it reflected on you webste. <br>Please feel free to reach out if you require any clarification or general questions here<br><a href="big_contactpage.php" target="_blank"><br>Kelly Hill.</a><br>If you would like to have an idea of my process, please feel free to check see the links on the aside.<p>Looking forward to working with you! -K-</p> 
+
+  <h3>Questionnaire</h3>
+
+  <div class="form">
+    <!-- big_multiple contact form here -->
+    <?php include "includes/big_multiple.php"?>
+  </div>
+
+</main> 
 </div>
+<!-- END LEFT COL -->
+  
+<!-- START RIGHT COLUMN -->
+<aside>
+<h3>Basics of Web Design Cyle</h3>
+<!-- Links here for resources found in very basic website --eventual put my port work here  --> 
+<P> provide 3 linked resources that help in web Design and developement
+<BR>
 
-<!-- Left Column Contact Form for Client Questionnaire-->
-  <main>
-    <p> add updated version of "mulitple.php contact form here (is in big folder already) adjusting feilds to for client Questionnaire<br>
+<h3>Basic References Guide For Web Design</h3>
 
-   <p>Lorem Impsum place holder</p>
+<div class="img"> 
+      <img src="imgs/venndiagram.JPG" alt="Venn Diagram">
+</div> 
+       
 
-   </main>
-
-   <aside> 
-     <p>link to understand basic web dsign cycle
-       resources to help me aask questions</p>
-     <!-- Links here for resources found in very basic website --eventual put my port work here  -->
-</aside>
-<!-- END Right COL -->
+<!-- <p>link to understand basic web dsign cycle resources to help me ask questions</p> --> -->
+<p>
+https://business.tutsplus.com/articles/how-to-extract-the-facts-with-a-web-design-client-questionnaire--fsw-1830</p>
 
 
-</div>
- 
-<!-- CUT FOOTER HERE START Footer -->
-<?php include 'includes/big_footer.php'?>
+</aside> 
+
+<!-- START Footer -->
+<?php include "includes/big_footer.php"?>

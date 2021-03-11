@@ -6,8 +6,8 @@
 
 <!-- MAKE SURE YOU GET YOUR (3) IMAGES SAVED INTO YOUR IMAGES FOLDER -->
 <div class="homepic">
-  <img src="images/boating.jpg" class="desktop" alt="Boating" />
-  <img src="images/sunset.jpg" class="tablet" alt="Sunset" />
+  <img src="images/sunset.jpg" class="desktop" alt="Boating" />
+  <img src="images/boating.jpg" class="tablet" alt="Sunset" />
   <img src="images/shadow_me.jpg" class="phone" alt="Shadow" />
 </div>
 

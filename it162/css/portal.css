@@ -92,7 +92,7 @@ div.embed-container {
     max-width: 98%;
 }
 
-div.embed-container iframe {
+div.embed-container iframe {    
     position: absolute;
     top: 0;
     left: 0;
@@ -127,14 +127,18 @@ footer {
     	}
 
     /* Change background color of navigation on selected page */
+
+    ul.topnav {
+        font: 10px "Fieldwork Geo Bold", Acute, Helvetica;
+    }
+
     ul.topnav li a.selected {
         		background-color: #4e4575;
                 color:  #bebad1;
-                /* font: 20px "Fieldwork Geo Bold", Acute, Helvetica;
-                padding: 20px;
-   	 } */
+                /* font: 20px "Fieldwork Geo Bold", Acute, Helvetica; */
+                /* padding: 20px; */
+   	 }
 }
-
 
 /* TABLET */
 @media all and (min-width:737px) and (max-width:1399px) {
@@ -183,5 +187,5 @@ footer {
 
     img.tablet, img.desktop {
        	display:none;
-    	}
     }
+}

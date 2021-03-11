@@ -1,7 +1,7 @@
 <?php
-
-// $siteKey = "6Lck4EAaAAAAAF43J32qJXIpLsuBzWmtTvgM3x2e";
-// $secretKey = "6Lck4EAaAAAAALpGBvBaDPS53umSydPzYhPwdarT";
+// big config file 
+$siteKey = "6Lck4EAaAAAAAF43J32qJXIpLsuBzWmtTvgM3x2e";
+$secretKey = "6Lck4EAaAAAAALpGBvBaDPS53umSydPzYhPwdarT";
 //this helps us avoid PHP date errors:
 
 date_default_timezone_set('America/Los_Angeles'); #sets default date/timezone for this website
@@ -10,50 +10,39 @@ date_default_timezone_set('America/Los_Angeles'); #sets default date/timezone fo
 //Used to store all of our WEB120 configuration information
 //prevents data from being sent early
 ob_start();
-// echo basename($_SERVER['PHP_SELF']);
-
-// place URL & labels in the array here for navigation:
-//     $nav1['index.php'] = "Welcome";
-//     $nav1['./big/index_big.php'] = "Big"; //added ./ before big
-//     $nav1['aia.php'] = "AIA";
-//     $nav1['flowchart.php'] = "Flowchart";
-//     $nav1['./fp/index.php'] = "Final Project"; 
-//     $nav1['contact.php'] = "Contact Me";
-    
-// echo basename($_SERVER['PHP_SELF']);
-// echo basename($_SERVER['PHP_SELF']);
 define('THIS_PAGE',basename($_SERVER['PHP_SELF']));
 
-switch(THIS_PAGE){
-    
+switch(THIS_PAGE)
+{
+        case 'index.php':
+            $title = "Web Design Portal for Kelly Hill it162";
+            $logo = "fa fa-globe";
+            // $logo_color = 'style= "color: #3e375f"';
+            $PageID = 'Welcome';
+            break;
+
         case "big_index.php":
             $title = "Big Portal for Kelly Hill it162";
             $logo = "fa fa-globe";
-            // $PageID = "Big Portal for Kelly Hill it162";
+            $PageID = "Client Questionnaire";
             break;
 
         case "respond_adapt.php":
-            $title = "Kelly Hill Research: Responsive vs Adaptive";
+            $title = "Responesive and Adaptive Web Design";
             $logo = "";
-            $PageID = "Research Topic #1: Responsive vs Adaptive Web Design";
+            $PageID = "Responsive and Adaptive Web Design";
             break;
                 
         case "grid_flex.php":
-            $title = "Kelly Hill Research Grid and Flexbox Research";
+            $title = "Designing with Grid and Flexbox";
             $logo = "";
-            $PageID = 'Research Topic #2: Grid and Flexbox';
+            $PageID = "Designing with Grid and Flexbox";
             break;
 
         case "accessibility.php":
-            $title = "Kelly Hill Research: Accessibility";
+            $title = "Creating Accessible Websites";
             $logo = "";
-            $PageID = "Research Topic #3: Accessibility";
-            break;
-
-        case "map.php":
-            $title = "Map";
-            $logo = "";
-            $PageID = "Map";
+            $PageID = "Creating Accesssible Websites";
             break;
 
         case "calender.php":
@@ -62,29 +51,30 @@ switch(THIS_PAGE){
             $PageID = "Calender";
             break;
 
-        case "webcam.php":
-            $title = "Ocean Channel";
-            $logo = "";
-            $PageID = "Live Webcam ";
+        case "map.php":
+            $title = "Map";
+            $logo = "fas fa-map-marked-alt";
+            $PageID = "Map";
             break;
-
+            
         case "youtube.php":
             $title = "Youtube";
             $logo = "";
             $PageID = "Youtube ";
             break;
-        
-        case "paralaxx.php":
-            $title = "Paralaxx";
-            $logo = "";
-            $PageID = "Paralaxx";
+
+        case "webcam.php":
+            $title = "Ocean Channel";
+            $logo = "fas fa-water";
+            $PageID = "Live Webcam ";
             break;
-        
-        // case "siteapp.php":
-        //     $title= "Site App";
-        //     $logo = "";
-        //     $PageID = "Site App";
-        //     break;
+
+        case "big_contactpage":
+            $title = "Contact";
+            $logo = "";
+            $PageID = "Contact";
+            break;
+    
 
         default:    
         $title = THIS_PAGE;    
