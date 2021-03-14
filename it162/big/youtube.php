@@ -16,9 +16,9 @@
   <h3>SEO resources</h3>
 <!-- Provide 3 or more links to resources links that support how to create accessible websites -->
 <ol>
-       <li><a href="#">Link 1</a></li>
-       <li><a href="#">Link 2</a></li>
-            <li><a href="#">Link 3</a></li>
+       <li><a href="#">Link 1</li>
+       <li><a href="#">Link 2</li>
+            <li><a href="#">Link 3</li>
 </ol>
 </aside>
 <?php include "includes/big_footer.php"?>

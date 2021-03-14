@@ -1,7 +1,7 @@
 
 <!-- START Footer -->
 <footer>
-<small>&copy; 2021-<?=date('Y')?>, All Rights Reserved >K.J.Hill Designs</a>, All Rights Reserved<small>
+<small>&copy; 2021-<?=date('Y')?>, All Rights Reserved >K.J.Hill Designs, All Rights Reserved<small>
 </footer>
 <!-- END Footer -->
 

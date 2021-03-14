@@ -10,16 +10,16 @@
 
               <p>However, it is not just a question of equal access to resources for individuals with additional needs but also of equity of accessing said resources. The option of equal usage is not the same of the functionality of use of use For example, having the use to a screen reader on a medical or financial services website is useless if the features do not read clearly or slowly enough for the user to complete a transaction or schedule an appointment.<br>
 
-          <h3><em><u>Best Practices for Webpage Design</em></u></h3>
+          <h3><b>>Best Practices for Webpage Design</b>></h3>
 
               <p>Disabilities that require assistive technology are typically related to permanent states such as auditory, visual, limited motor and mobility. However, there also circumstantial states such as a broken arm or eye surgery. All of which require assistance to successfully navigate a website. <br>
 
               <p>To be sure the designer is considering all audiences, ensure all content meets the P.O.U.R* criteria:<br>
                 <ul>
-                    <li>Is the content <em>P</em>erceivable?</li>
-                    <li>Are the interface elements<em>O</em>perable?</li?>
-                    <li>Are the content and controls <em>U</em>nderstandable? 
-                    <li>Does the site offer <em>R</em>obust content to work with current and future technologies?</li>
+                    <li>Is the content <b>>P</b>>erceivable?</li>
+                    <li>Are the interface elements<b>>O</b>>perable?</li?>
+                    <li>Are the content and controls <b>>U</b>>nderstandable? 
+                    <li>Does the site offer <b>>R</b>>obust content to work with current and future technologies?</li>
 
                 </ul>
 
@@ -40,7 +40,7 @@
                 </ul>
 
 
-          <h3><em><u>Keeping Up with the User’s Needs</em></u></h3>
+          <h3><b>>Keeping Up with the User’s Needs</b>></h3>
 
               <p>Test, test, and more testing. User testing is the best way to ensure your site is accessible and usable for all. Don’t assume the needs of a person with disabilities. Do routine user testing with the appropriate audience. Since technology changes literally minute by minute, do the testing regularly. There are not only advancements in technology but also related medical fields.</br>
 

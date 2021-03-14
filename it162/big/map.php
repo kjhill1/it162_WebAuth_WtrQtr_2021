@@ -16,7 +16,7 @@
             <h4>Seattle Central College</h4>
             
                 <p><address>1701 Broadway, Seattle, WA 98122</address><br>
-                Phone:<a href="tel:12069343800">(206) 934-3800</a>
+                Phone:<a href="tel:12069343800">(206) 934-3800
                 </p>
 
         </div>

@@ -22,9 +22,9 @@
 <h3>Free-ish Calendars</h3>
 <!-- Provide 3 or more links to free-ish calendar resources that developers like yourself might consider. Examples you should look into: localendar.com, tockify.com, and time.ly -->
 <ol>
-       <li><a href="#">Link 1</a></li>
-       <li><a href="#">Link 2</a></li>
-            <li><a href="#">Link 3</a></li>
+       <li><a href="#">Link 1</li>
+       <li><a href="#">Link 2</li>
+            <li><a href="#">Link 3</li>
 </ol>
 
 </aside>

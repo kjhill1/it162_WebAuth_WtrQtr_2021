@@ -57,6 +57,8 @@ th  {
 
   p   {
     padding: 0px 5px;
+    font: 14px "Fieldwork Geo", Acute, Helvetica;
+    text-align: justify;
 }
 
   /* tr  {

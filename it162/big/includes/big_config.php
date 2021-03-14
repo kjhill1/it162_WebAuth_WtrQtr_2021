@@ -15,7 +15,7 @@ define('THIS_PAGE',basename($_SERVER['PHP_SELF']));
 switch(THIS_PAGE)
 {
         case 'index.php':
-            $title = "Web Design Portal for Kelly Hill it162";
+            $title = "Kelly Hill's Big Project it162";
             $logo = "fa fa-globe";
             // $logo_color = 'style= "color: #3e375f"';
             $PageID = 'Welcome';
@@ -68,14 +68,7 @@ switch(THIS_PAGE)
             $logo = "fas fa-water";
             $PageID = "Live Webcam ";
             break;
-
-        case "big_contactpage":
-            $title = "Contact";
-            $logo = "";
-            $PageID = "Contact";
-            break;
     
-
         default:    
         $title = THIS_PAGE;    
         $logo = '';//no icon by default

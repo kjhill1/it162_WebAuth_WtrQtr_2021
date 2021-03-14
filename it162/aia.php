@@ -24,7 +24,7 @@
 
 <tr>
 <td>Company Profile</td>
-    <td class="rowwidth"><p><a href="https://www.kw.com/">KW Reality</a> is a franchising real estate company. It is self-described as a "technology company that provides the real estate platform that agents’, buyers and sellers prefer." IN 2018 and 2019 they claimed to be the largest real estate franchise in number of agents and sales volume for 2018 and 2019.<br>Each independent agent is required to complete certification training and contract-completion training from an approved real estate licensing program, as well as being a state or local real estate board.. KW also offers their own training blogs, guidance on becoming an agent and general resources for success.</p>
+    <td class="rowwidth"><p><a href="https://www.kw.com/"></a>KW Reality is a franchising real estate company. It is self-described as a "technology company that provides the real estate platform that agents’, buyers and sellers prefer." IN 2018 and 2019 they claimed to be the largest real estate franchise in number of agents and sales volume for 2018 and 2019.<br>Each independent agent is required to complete certification training and contract-completion training from an approved real estate licensing program, as well as being a state or local real estate board.. KW also offers their own training blogs, guidance on becoming an agent and general resources for success.</p>
 </td>
 </tr>
 
@@ -42,6 +42,7 @@
         <td>Approach to Meeting Website Goals</td>
 
   </tr>
+
 </table>
   <table>   
     <!-- Demographic Profile and Potential Client Expectations-->
@@ -112,11 +113,10 @@
 
         <td>
           <!-- Approach to Meeting Website Goals -->
-
-
-          <p>The site will communicate the impression of confidence, reassurance, comfort, expertise in the respective field, through content, images, color, text, supplemental resources and Mr. Butler’s professional profile. <br>
+          <p>The site will communicate the impression of confidence, reassurance, comfort, expertise in the respective field, through content, images, color, text, supplemental resources and Mr. Butler’s professional profile.</p>
             
-          <p><b>Discover and Define:</b></p>
+          <b>Discover and Define:</b>
+
           <ul>
                        <li>Evaluate KW Realty</li>
                        <li>Understand Goals, Mission and Branding</li>
@@ -124,7 +124,7 @@
                        <li>Identify demographic</li>
          
              </ul>
-         
+        
              <p><b>Design and Development:</b></p>
                    <ul>
                    

@@ -17,27 +17,26 @@
 </head>
 
 <body>
-<!-- <i class="fas fa-compass"></i> -->
 
 <!-- START WRAPPER -->
 <div class="wrapper">
 <header>
   <h1>
  
-    <a href="index.php" id="h1font"><i id="logopad" class="logo <?=$logo?>"></i>Web Design Portal for Kelly Hill it162</a></h1> 
+    <a href="index.php" id="h1font"><i id="logopad" class="logo <?=$logo?>"></i>Web Design Portal for Kelly Hill it162</h1> 
     
   <nav>
     <ul class="topnav" id="myTopnav">
     <?=makeLinks($nav1)?>
     
-      <!-- <li><a href="index.php" class="selected">Welcome</a></li>
-      <li><a href="./big/index.php">Big</a></li>
-      <li><a href="aia.php">AIA</a></li>
-      <li><a href="flowchart.php">Flowchart/Layout</a></li>
-      <li><a href="./fp/index.php">Final Project</a></li>
-      <li><a href="contact.php">Contact Me</a></li>
+      <!-- <li><a href="index.php" class="selected">Welcome</li>
+      <li><a href="./big/index.php">Big</li>
+      <li><a href="aia.php">AIA</li>
+      <li><a href="flowchart.php">Flowchart/Layout</li>
+      <li><a href="./fp/index.php">Final Project</li>
+      <li><a href="contact.php">Contact Me</li>
       -->
-      <li class="icon"> <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a> </li>
+      <li class="icon"> <a href="javascript:void(0);" onclick="myFunction()">&#9776; </li>
     </ul>
   </nav>
 </header>

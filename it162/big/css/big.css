@@ -8,12 +8,11 @@ html {
 div.wrapper {
     background-color: #fdfdfa;
     overflow: auto;
-    display: grid; 
-    grid-template-columns: auto auto auto;
+    display: grid;
+    grid-template-columns: auto auto;
     grid-template-rows: auto auto auto;
-    grid-gap: 20px;
-
 }
+
 header {
     display: grid;
     grid-column: 1 / 4;
@@ -27,19 +26,7 @@ h1 {
     padding: 0px 10px;
 }
 
-#logopad {
-    color: #3e375f;
-    padding: 0px 10px;
-}
-
-section {
-    display: grid;
-    grid-column: 1 / 3;
-    grid-row: 2 / 3;
-    padding-left: 10px;
-}
-
-h2 h3 {
+h2 {
     font: 24px "Fieldwork Geo", Acute, Helvetica;
     text-align: justify;
     padding: 10px 0px 10px 0px;
@@ -48,42 +35,89 @@ h2 h3 {
     width: 100%;
 }
 
+h3  {
+    text-decoration: underline;
+}
+
+#logopad {
+    color: #3e375f;
+    padding: 0px 10px;
+}
+
+/* .diagram   {
+    display: grid;
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+
+} */
+
+
+p {
+    font: 14px "Fieldwork Geo", Acute, Helvetica;
+    /* text-align: justify; */
+}
+
+.main {
+    display: grid;
+    /* grid-column: 1 / 2;
+    grid-row: 2 / 3; */
+    padding-left: 10px;
+    padding-right: 20px;
+    font: 14px "Fieldwork Geo", Acute, Helvetica;
+}
+
 aside  {
     display: grid;
-    grid-row: 2 / 3;
-    grid-column: 3 / 4;
+    /* float: right; */
+    /* grid-column: 2 / 3;
+    grid-row: 2 / 3; */
+    font: 14px "Fieldwork Geo", Acute, Helvetica;
+    text-align: justify;
+    padding-right: 20px;
+    padding-top: 30px;
 }
-#address    {
+
+.right  {
+    padding-top: 30px;
+    padding-right: 20px;
+}
+
+/* #address    {
     display: flex;
     align-items: center;
     float: none;
     text-justify: center;
-}
+} */
 
-p {
-    font: 14px "Fieldwork Geo", Acute, Helvetica;
-    text-align: justify;
-}
 
-main {
-    float: none;
-    display: grid;
-    grid-column: 1 / 3;
-    grid-row: 2 / 3;
-    padding-left: 10px;
-}
 
  div.desktop {
         float: right;
         width: 25%;
         padding: 10px;
 }
+/* .links {
+    display: block;
+    font: 14px "Fieldwork Geo", Acute, Helvetica;
+    justify-content: center;
+
+} */
 
 .logopad {
     color: #3e375f;
     text-shadow:1px 1px #817b9e;
     font-size: 1em;
     padding: 0px 10px;
+}
+
+footer {
+    /* float: none; */
+    display: grid;
+    justify-content: center;
+    grid-row: 4 / 5;
+    grid-column: 1 / 4;
+    width: 100%;
+    padding: 10px;
 }
 
 /* Embed Responsively Rules! used for webcam */
@@ -105,14 +139,14 @@ div.embed-container iframe {
     height: 100%;
 }
 
-footer {
-    /* float: none; */
+ footer {
     display: grid;
     justify-content: center;
-    grid-row: 5 / 6;
+    grid-row: 4 / 5;
     grid-column: 1 / 4;
     width: 100%;
 }
+
 
 /* Embed Responsively Rules! */
 div.embed-container-month {
@@ -124,7 +158,7 @@ div.embed-container-month {
     max-width: 98%;
 }
 
-div.embed-container .month iframe {
+div.embed-container-agenda {
     position: absolute;
     top: 0;
     left: 0;
