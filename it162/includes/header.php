@@ -21,7 +21,7 @@
 <!-- START WRAPPER -->
 <div class="wrapper">
 <header>
-  <h1><a href="index.php"><i class="logo fa fa-home"></i>Kelly J. Hill SCC Portal IT1262</a></h1>
+  <h1><a href="index.php"><i class="logo fa fa-home"></i>Web Design Portal it162</a></h1>
   
   <nav>
   <ul class="topnav" id="myTopnav">
