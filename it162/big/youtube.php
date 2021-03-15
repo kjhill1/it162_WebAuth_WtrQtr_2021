@@ -1,26 +1,32 @@
 <?php include 'includes/big_header.php'?>
 <!-- START LEFT COL -->
-<section>
+<section id="youtube">
 
 <!-- Insert YouTube video re: how to create accessible websites -->
-<div class='div.embed-container'><iframe src='https://www.youtube.com/embed/hF515-0Tduk' frameborder='0' allowfullscreen></iframe>
+<div class='div.embed-container'>
+  <iframe src="https://www.youtube.com/embed/hF515-0Tduk"></iframe>
 
 </div>
-
-
 </section>
  <!-- END LEFT COL -->
     
  <!-- START RIGHT COL -->
 <aside>
-  <h3>SEO resources</h3>
+  <h3>SEO Resources</h3>
 <!-- Provide 3 or more links to resources links that support how to create accessible websites -->
-<ol>
-       <li><a href="#">Link 1</li>
-       <li><a href="#">Link 2</li>
-            <li><a href="#">Link 3</li>
-</ol>
+<ul>
+
+  <li><a href="https://ahrefs.com/blog/seo-basics/">SEO Basics</a></li>
+    <li><a href="https://en.wikipedia.org/wiki/Search_engine_optimization">Search Engine Optimization(SEO)</a></li>
+      <li><a href="https://developers.google.com/search/docs/beginner/seo-starter-guide">SEO Starter Guide</a></li>
+  
+</ul>
 </aside>
+
+ <!-- END LEFT COL -->
+    
+ <!-- START RIGHT COL -->
+
 <?php include "includes/big_footer.php"?>
 
 <!-- <style>

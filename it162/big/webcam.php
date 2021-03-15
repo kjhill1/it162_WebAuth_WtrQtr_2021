@@ -1,13 +1,20 @@
+  
 <?php include 'includes/big_header.php'?>
 
-<body class="webcam">
-<!-- the following example live image refreshes (per the meta tag above) on and is visible via the iframe on the webcam.php page. -->
+<main>
+<div id="calpad">
+<div class="embed-container-month"><iframe src="https://www.youtube.com/embed/ZpnyPXloF2U"></iframe></div>
 
-<div class="aside">
-<div class='embed-container'><iframe src='https://www.youtube.com/embed/ZpnyPXloF2U' frameborder='0' allowfullscreen></iframe></div>
+</div>
+</main>
+<aside>
+     <div id="calpad2">
+     <div class="embed-container-agenda"><iframe src="https://www.youtube.com/embed/8KGXSjtS5pk"></iframe></div>
 
-</body>
-</html>
+     </div>
+</aside>
+
+<!-- </html> -->
 
 
 <?php include "includes/big_footer.php"?>

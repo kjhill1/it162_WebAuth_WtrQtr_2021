@@ -26,7 +26,7 @@
         <li>It is a single coded website, so it is easier for the designer to manage.</li>
         <li>Consistent design and branding.</li>
         <li>Easy to test, collect, and analyze data.</li>
-    <ul>
+</ul>
 
   <h3><b>What is Adaptive Web Design (AWD)?</b></h3>
 
@@ -45,25 +45,22 @@
           <li>Images are optimized based on the resolution and the size of the user’s device</li>
     </ul>
 
-<h3><b>>Which is the better?</b></h3>
+<h3><b>Which is the better?</b></h3>
 
-    <p>At this point in Web Design, there is no perfect answer. The designer should choose the best option based on the given job. Through experience and knowledge, we can utilize the best method to meet the client and user’s needs.<br>
+    <p>At this point in Web Design, there is no perfect answer. The designer should choose the best option based on the given job. Through experience and knowledge, we can utilize the best method to meet the client and user’s needs.</p>
 
-     <h3><p>References</p></h3>
-     <p><cite><a href="https://www.browserstack.com/guide/responsive-design-breakpoints"></a></cite> “Defining Breakpoints in Responsive Web Design” Shreya Bose, November 11, 2019</p>
-
-     <p><cite><a href="https://www.digivate.com/blog/mobile/responsive-web-design-dedicated-mobile-site-or-mobile-app/"></a></cite> “Responsive Web Design, Dedicated Mobile Site or Mobile App – How to Choose?” Uncredited, May 10th, (no year listed.)</p>
-
-     <p><cite><a href="https://in.springboard.com/blog/responsive-vs-adaptive-design/"></a></cite>“Responsive vs Adaptive Design: What is the Difference, and Which is the Best Choice?” Uncredited, August 8, 2020</p>
-     <p><cite><a href="https://www.nngroup.com/articles/responsive-web-design-definition/"></a></cite> “Responsive Web Design (RWD) and User Experience” Amy Schade, May 4, 2014</p>
+     <h3>References</h3>
+     <p><cite><a href="https://www.browserstack.com/guide/responsive-design-breakpoints">“Defining Breakpoints in Responsive Web Design” Shreya Bose, November 11, 2019</a></cite> </p>
+     <p><cite><a href="https://www.digivate.com/blog/mobile/responsive-web-design-dedicated-mobile-site-or-mobile-app/">“Responsive Web Design, Dedicated Mobile Site or Mobile App – How to Choose?” Uncredited, May 10th, (no year listed.)</a></cite></p>
+     <p><cite><a href="https://in.springboard.com/blog/responsive-vs-adaptive-design/">“Responsive vs Adaptive Design: What is the Difference, and Which is the Best Choice?” Uncredited, August 8, 2020</a></cite></p>
+     <p><cite><a href="https://www.nngroup.com/articles/responsive-web-design-definition/"> “Responsive Web Design (RWD) and User Experience” Amy Schade, May 4, 2014</a></cite></p>
      
-</div>
 </div>
 
 <aside>
       <img id="right" src="imgs/adapt_vs_respond.png" alt="devices"> 
 
-    </aside>
+</aside>
 
 <!-- END Right COL -->
 

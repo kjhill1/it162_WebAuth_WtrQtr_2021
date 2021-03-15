@@ -42,23 +42,23 @@
 <div class="reference">
         <h3><b>References</b></h3>
 
-<p><cite><a href="https://tympanus.net/codrops/css_reference/flexbox/"></a></cite>“Flexbox, or the Flexible Box Layout, is a new layout mode in CSS3 designed for laying out complex applications and web pages.”  Uncredited>
+<p><cite><a href="https://tympanus.net/codrops/css_reference/flexbox/">“Flexbox, or the Flexible Box Layout, is a new layout mode in CSS3 designed for laying out complex applications and web pages.”  Uncredited</a></cite></p>
 
-<p><cite><a href="https://medium.com/@BennyOgidan/history-of-css-grid-and-css-flexbox-658ae6cfe6d2"></cite>“CSS Layouts” Madhur Taneja, May 7, 2020</p>
+<p><cite><a href="https://medium.com/@BennyOgidan/history-of-css-grid-and-css-flexbox-658ae6cfe6d2">“CSS Layouts” Madhur Taneja, May 7, 2020</a></cite></p>
  
-<p><cite><a href="https://www.w3schools.com/css/css3_flexbox_container.asp
-https://www.w3schools.com/css/css_grid.asp"></a></cite></p>
+<p><cite><a href="https://www.w3schools.com/css/css3_flexbox_container.asp"></a></cite></p>
 
-<p><cite><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout 
-https://brolik.com/blog/when-to-use-flexbox/"></a></cite> “When to use Flexbox” Alex Caldwel, Dec 22, 2015</p>
+<p><cite><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout">Basic Concepts of grid layout</a></cite></p>
 
-<p><cite><a href="https://blog.logrocket.com/flexbox-vs-css-grid/"></a></cite>“When to use Flexbox and when to use CSS grid”, Leonardo Maldonado, April 6, 2020</p>
+<p><cite><a href="https://brolik.com/blog/when-to-use-flexbox/">“When to use Flexbox” Alex Caldwel, Dec 22, 2015</a></cite></p>
 
-<p><cite><a href="https://blog.hubspot.com/website/css-grid"></a></cite>“How to Create a Perfect CSS Grid on Your Website [Sample Layouts],” Clint Fontanella</p>
+<p><cite><a href="https://blog.logrocket.com/flexbox-vs-css-grid/">“Flexbox vs Grid”, Leonardo Maldonado, April 6, 2020</a></cite></p>
 
-<p><cite><a href="https://elementor.com/blog/grid-design/"></cite></p>
+<p><cite><a href="https://blog.hubspot.com/website/css-grid">“How to Create a Perfect CSS Grid on Your Website [Sample Layouts],” Clint Fontanella</a></cite></p>
 
-<p><cite><a href="https://rachelandrew.co.uk/css/cheatsheets/box-alignment"></cite>“Box Alignment Cheatsheet.” Uncredited</p>
+<p><cite><a href="https://elementor.com/blog/grid-design/"></a></cite></p>
+
+<p><cite><a href="https://rachelandrew.co.uk/css/cheatsheets/box-alignment">“Box Alignment Cheatsheet.” Uncredited</a></cite></p>
 </div>
 
 </div>
@@ -67,7 +67,7 @@ https://brolik.com/blog/when-to-use-flexbox/"></a></cite> “When to use Flexbox
 <!-- START RIGHT -->
 
       <aside>
-      <img id="right" src="imgs/doorsflex.JPG" alt="decsions"> 
+      <img src="imgs/doorsflex.JPG" alt="decsions"> 
 
     </aside>
 
