@@ -11,6 +11,7 @@
      </div>
 <div id="refer">
 <h3>Embedable Calendar Resources</h3>
+<h5>Google Calenders would not give me a agenda view. Google changed there menus since Sara's video was publish. </h5>
 <!-- Provide 3 or more links to free-ish calendar resources that developers like yourself might consider. Examples you should look into: localendar.com, tockify.com, and time.ly -->
 <ol>
      <li><a href="#https://calendly.com/blog/online-calendars/">Calendly</a></li>

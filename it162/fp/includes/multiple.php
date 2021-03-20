@@ -22,17 +22,17 @@
 <form action="<?php echo basename($_SERVER['PHP_SELF']); ?>" method="post">
 <div id="font">
     <label class="fontstyle">
-        Name:<br /><input type="text" name="Name" required="required" placeholder="Full Name (required)" title="Name is required" tabindex="10" size="44" />
+    <p>Name:<br /><input type="text" name="Name" required="required" placeholder="Full Name (required)" title="Name is required" tabindex="10" size="44" /></p>
     </label>
 </div>
 <div>	
     <label>
-        Email:<br /><input type="email" name="Email" required="required" placeholder="Email (required)" title="A valid email is required" tabindex="20" size="44" />
+        Email:<br /><input type="email" name="Email" required="required" placeholder="Email (required)" title="A valid email is required" tabindex="20" size="44" /></p>
     </label>
 </div>
 <div>	
     <label>
-        Phone:<br /><input type="text" name="Phone" required="required" placeholder="Phone (required)" title="Phone" tabindex="20" size="44" />
+        Phone:<br /><input type="text" name="Phone" required="required" placeholder="Phone (required)" title="Phone" tabindex="20" size="44" /></p>
     </label>
 </div>	
  
@@ -42,15 +42,16 @@
     
    <div>
         <!-- <input type="radio" name="How can I help?" title="How You Heard is required" tabindex="30"> -->
-            <input type="radio" name="Designing New Website" value="Designing New Website">Designing a New Website<br>
-            <input type="radio" name="Building a New Website" value="Building a New Website">Building a New Websit<br>
-            <input type="radio" name="Logo and Branding Services" value="Logo and Branding Services">Logo and Branding Services<br>
-            <input type="radio" name="Other" value="Other">Other<br>
+            <input type="radio" name="Buying a Home" value="Buying a Homee">Buying a Home<br>
+            <input type="radio" name="Selling a Home" value="Selling a Home">Selling a Home<br>
+            <input type="radio" name="Becoming Realitor" value="Becoming Realitor">Becoming Realitors<br>
+            <input type="radio" name="Great Cocktail Receipes" value="Great Cocktail Receipes"> Great Cocktail Receipe<br>
+            <input type="radio" name="Something Else" value="Something Else">Something Else<br>
 </div>
 <div>	
     <p>
     <label>
-        Tell me a bit about yourself and you goals for a web presence.<br /><textarea name="Comments" cols="36" rows="4" tabindex="60"></textarea>
+        Comments Apprecaited.<br /><textarea name="Comments" cols="36" rows="4" tabindex="60"></textarea>
     </label>
 </p>
 </div>	
@@ -61,4 +62,5 @@
     <input type="submit" value="submit" />
 </div>
 </form>
+
 <!-- END HTML FORM -->

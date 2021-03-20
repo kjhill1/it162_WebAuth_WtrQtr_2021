@@ -42,9 +42,9 @@
     
    <div>
         <!-- <input type="radio" name="How can I help?" title="How You Heard is required" tabindex="30"> -->
-            <input type="radio" name="Designing New Website" value="Designing New Website">Designing a New Website<br>
+            <input type="radio" name="Buying a Home" value="Buying a Home">Buying a New Home<br>
             <input type="radio" name="Building a New Website" value="Building a New Website">Building a New Websit<br>
-            <input type="radio" name="Logo and Branding Services" value="Logo and Branding Services">Logo and Branding Services<br>
+            <input type="radio" name="Selling Your Home" value="Selling Your Home">Selling Your Home<br>
             <input type="radio" name="Other" value="Other">Other<br>
 </div>
 <div>	
