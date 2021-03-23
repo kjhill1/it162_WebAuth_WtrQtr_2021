@@ -22,17 +22,17 @@
 <form action="<?php echo basename($_SERVER['PHP_SELF']); ?>" method="post">
 <div id="font">
     <label class="fontstyle">
-    <p>Name:<br /><input type="text" name="Name" required="required" placeholder="Full Name (required)" title="Name is required" tabindex="10" size="44" /></p>
+    Name:<br /><input type="text" name="Name" required="required" placeholder="Full Name (required)" title="Name is required" tabindex="10" size="44" />
     </label>
 </div>
 <div>	
     <label>
-        Email:<br /><input type="email" name="Email" required="required" placeholder="Email (required)" title="A valid email is required" tabindex="20" size="44" /></p>
+        Email:<br /><input type="email" name="Email" required="required" placeholder="Email (required)" title="A valid email is required" tabindex="20" size="44" />
     </label>
 </div>
 <div>	
     <label>
-        Phone:<br /><input type="text" name="Phone" required="required" placeholder="Phone (required)" title="Phone" tabindex="20" size="44" /></p>
+        Phone:<br /><input type="text" name="Phone" required="required" placeholder="Phone (required)" title="Phone" tabindex="20" size="44" />
     </label>
 </div>	
  
@@ -48,12 +48,10 @@
             <input type="radio" name="Great Cocktail Receipes" value="Great Cocktail Receipes"> Great Cocktail Receipe<br>
             <input type="radio" name="Something Else" value="Something Else">Something Else<br>
 </div>
-<div>	
-    <p>
+<div>
     <label>
         Comments Apprecaited.<br /><textarea name="Comments" cols="36" rows="4" tabindex="60"></textarea>
     </label>
-</p>
 </div>	
 
 
@@ -62,5 +60,6 @@
     <input type="submit" value="submit" />
 </div>
 </form>
+
 
 <!-- END HTML FORM -->
