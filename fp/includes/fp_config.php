@@ -14,56 +14,61 @@ $nav1['search.php'] = "Search Listings";
 $nav1['about.php'] = "About";
 $nav1['resources.php'] = "Resources"; 
 $nav1['contact.php'] = "Contact Me";
-$nav1['backtoport.php'] = "Designers Portal Page";
+$nav1['../index.php'] = "Designer's Portal Page";
 
 // // makeLinks function will create our dynamic nav when called.
 // // Call like this:
 
 // // echo makeLinks($nav1); #in which $nav1 is an associative array of links
     
-// // echo basename($_SERVER['PHP_SELF']);
+// echo basename($_SERVER['PHP_SELF']);
+
 define('THIS_PAGE',basename($_SERVER['PHP_SELF']));
 
 switch(THIS_PAGE){
 
     case 'index_fp.php':
-    $title = "Real Estate Joe - Keller Williams Joe Eastside, United Home Group";
-    // $logo = "fa fa-globe";
-    // $logo_color = ' style= "color: #3e375f"';
-    $PageID = 'Home';
-    break;
+        $title = "Real Estate Joe - Keller Williams Joe Eastside, United Home Group";
+        // $logo = "fa fa-globe";
+        // $logo_color = ' style= "color: #3e375f"';
+        $PageID = 'Home';
+        break;
 
     case 'search.php':
-    $title = "Search Listings";
-    // $logo = "fa fa-compass-americas";
-    // $logo_color = ' style= "color: #5d707f"';
-    $PageID = 'Search';
-    break;
+        $title = "Search Listings";
+        // $logo = "fa fa-compass-americas";
+        // $logo_color = ' style= "color: #5d707f"';
+        $PageID = "Search";
+        break;
 
     case 'resources.php':
         $title = "Resources";
         // $logo = "fa fa-compass-americas";
         // $logo_color = ' style= "color: #5d707f"';
-        $PageID = 'Resources';
+        $PageID = "Resources";
         break;
 
     case 'about.php':
-    $title = "About";
-    // $logo = "fa fa-compass";
-    //  $logo_color = ' style="color: #84828f';
-    $PageID = 'About';
+        $title = "About";
+        // $logo = "fa fa-compass";
+        //  $logo_color = ' style="color: #84828f';
+        $PageID = "About";
+
+        break;
 
     case 'contact.php':
         $title = "Contact";
         // $logo = "fa fa-compass";
         //  $logo_color = ' style="color: #84828f';
-        $PageID = 'Contact';
+        $PageID = "Contact";
+
+        break;
 
         case '':
-            $title = "Designers Portal Page";
+            $title = "Designer's Portal Page";
             // $logo = "fa fa-compass";
             //  $logo_color = ' style="color: #84828f';
-            $PageID = 'Designers Portal Page';
+            $PageID = "Designer's Portal Page";
 
         break;
 

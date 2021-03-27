@@ -1,24 +1,34 @@
 body {
  
     background: rgb(255, 255, 255);
-  
 }
 
+ 
 header {
   width: 100%;
   display: grid;
   grid-column: 1 / 4;
   grid-row: 2 / 3;
   background-color: rgb(255, 255, 255);
+ 
 }
+
+
 .wrapper {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: auto auto auto;
-    /* grid-gap: 5px;  */
+  width: auto;
     overflow: hidden;
 }
-main {
+h2 {
+  display: grid;
+  background-color: rgb(255, 255, 255);
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  color: rgb(32, 19, 19);
+  grid-column: 1 / 4;
+  grid-row: 3 / 4;
+  font-size: 20ox;
+}
+
+main h2 {
   display: grid;
   background-color: rgb(255, 255, 255);
   font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
@@ -64,19 +74,45 @@ footer {
   background: linear-gradient(to bottom, #faf5f6 0%,#521b26, 100%);*/
   }
 
+  /* extra large screens */
+
+  @media all and (min-width: 1400px) {
+
+    #mobi {
+      display: none;
+    }
+
+    img.desktop {
+      width: 100%;
+      display: inline-block;
+     }
+    
+     img.tablet, img.phone {
+        display: none;
+    }
+      main {
+       width:65%;
+     } 
+  }
+
+  #myLinks  {
+    display: none;
+  }
 
 /* DESKTOP */
+@media all and (min-width: 921px) and (max-width: 1399px){
 
-@media all and (max-width: 2560px) {
-
-  main {
+  /* added from Sara's code maring flot left and chamged tp .wrapper */
+  .wrapper {
    width: 95%;
+   margin: auto;
 
  }
 
+/* added inline-blcok from blck */
 img.desktop {
   width: 100%;
-  display: block;
+  display: inline-block;
  }
 
  img.tablet, img.phone {
@@ -86,20 +122,41 @@ img.desktop {
    width:65%;
  } 
 
+.mobi {
+  display: none;
+}
+/* end tag */
 }
 
+
+
 /*TABLET*/
-@media all and (min-width:737px) and (max-width: 920px) {
+@media all and (min-width:738px) and (max-width: 920px) {
 
   main {
     width: 75%;
     overflow: hidden; 
   }
 
+  #mobi {
+    display: block;
+  }
+ 
+  #myTopnav
+  {
+    display: none;
+  }
 
+  nav {
+    display: none;
+
+  }
+  
+
+/* changed wisth from auito and block to inline  */
   img.tablet {
-          width: auto;
-          display: block;
+          width: 100%;
+          display: inline-block;
    }
 
   img.desktop, img.phone {
@@ -115,16 +172,31 @@ img.desktop {
 }
 
 /* PHONE */
-@media all and (max-width: 738 px) {
+@media all and (max-width: 737px) {
 
   main {
-    width: 40%;
+    width: 100%;
+    margin: 10px;
     overflow: hidden; 
   }
+  
+  .wrapper #mobi {
+    display: block;
+  }
 
+  #myTopnav
+  {
+    display: none;
+  }
+
+  nav {
+    display: none;
+  }
+
+  /* changed from block-size */
   img.phone {
-          width:100%;
-           display: block;
+          width:280px;
+          display: block;
    }
 
    img.tablet, img.desktop {
@@ -132,8 +204,6 @@ img.desktop {
      }  
     }
    
-
-
     /* FORM CSS */
     main.form  {
       margin:1em;
