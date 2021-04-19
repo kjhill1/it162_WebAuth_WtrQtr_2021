@@ -13,7 +13,7 @@
 <link rel="stylesheet" href="css/form.css" />
 <link rel="stylesheet" href="css/aia.css" />
 <link rel="stylesheet" href="css/portal.css" />
-<!-- <link rel="stylesheet" href="css/flowchart.css"> -->
+
 </head>
 
 <body>
@@ -28,10 +28,10 @@
     <?=makeLinks($nav1)?>
     <!-- 
       <li><a href="index.php" class="selected">Welcome</a></li>
-      <li><a href="big-index.php">Big</a></li>
+      <li><a href="../big_index.php">Big</a></li>
       <li><a href="aia.php">AIA</a></li>
       <li><a href="flowchart.php">Flowchart/Layout</a></li>
-      <li><a href="fp-index.php">Final Project</a></li>
+      <li><a href="fp.php">Final Project</a></li>
       <li><a href="contactme.php">Contact KJ</a></li>
       <li class="icon"> <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a> </li> -->
     </ul>

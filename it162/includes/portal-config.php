@@ -40,6 +40,12 @@ switch(THIS_PAGE){
         $PageID = 'AIA';
         break;
 
+        case 'fp.php':
+            $title = "Final Project";
+            $logo = "fa fa-compass";
+            $logo_color = ' style="color: #84828f';
+            $PageID = 'Final Project';
+
         case 'contact.php':
         $title = "Contact Me";
         $logo = "fa fa-compass";
@@ -58,7 +64,7 @@ switch(THIS_PAGE){
     $nav1['./big/big_index.php'] = "Big"; //added ./ before big
     $nav1['aia.php'] = "AIA";
     $nav1['flowchart.php'] = "Flowchart";
-    $nav1['./fp/index.php'] = "Final Project"; 
+    $nav1['fp.php'] = "Final Project"; 
     $nav1['contact.php'] = "Contact Me";
 
 // makeLinks function will create our dynamic nav when called.

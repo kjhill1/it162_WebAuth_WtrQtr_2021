@@ -44,6 +44,8 @@
         <li><a href="calender.php"><span><i class="fa fa-fw fa-calendar"></i>Calendar</span></a></li>
 
         <li><a href="map.php"><span><i class="logo <?=$logo?>"></i>Map</span></a></li>
+        
+        <li><a href="codetemplate.php"><span><i class="logo <?=$logo?>"></i>Code Templates</span></a></li>
 
 
         <li><a href="youtube.php"><span><i id="logopad" class="logo <?=$logo?>"></i> YouTube</span></a></li>

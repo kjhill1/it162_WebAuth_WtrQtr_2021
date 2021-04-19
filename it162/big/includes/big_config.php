@@ -45,6 +45,12 @@ switch(THIS_PAGE)
             $PageID = "Creating Accesssible Websites";
             break;
 
+        case "codetemplate.php":
+            $title = "Wtr 2021 Code Template";
+            $logo = "fas fa-water";
+            $PageID = "Wtr 2021 Code Template";
+            break;
+
         case "calender.php":
             $title = "Calender";
             $logo = "";

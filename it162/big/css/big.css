@@ -119,6 +119,13 @@ aside  {
     grid-row: 1 / 3;
 }
 
+#codetemp {
+    grid-column: 1 / 4;
+    grid-row: 2 / 3;
+    color: #3e375f;
+    padding: 0px 10px;
+
+}
 footer {
     /* float: none; */
     display: grid;
@@ -195,6 +202,7 @@ div.embed-container {
     grid-column: 1 / 4;
     justify-content: center;
 }
+
 
 div.embed-container-agenda .embed-container-cam2 {
     /* position: absolute; */
